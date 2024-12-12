@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  padding-left: 100px;
+}
+
+.Header {
+  text-align: right;
+  padding: 20px;
+  margin-bottom: 0px;
+  color: gray;
+}
+
+
+.TodoEditor {
+  margin-top: 0px;
+  text-align: left;
+  flex: 1;
+}
+
+
+.TodoEditor button{
+
+  margin: 20px;
+  padding: 5px 15px;
+  border-radius: 100%;
+  border: none;
+  background-color: lightgray;
+  color: black;
+  font-size: 17pt;
+  cursor: pointer;
+}
+
+.TodoEditor input{
+  width: 350px;
+  height: 30px;
+}
+
+
+.searchbar {
+  display: block;
+  width: 30%;
+  height: 25px;
+  border: none; 
+  border-bottom: 1px solid gray
+}
+.TodoList .searchbar:focus {
+  outline: none;
+  border-bottom: 2px solid gray;
+}
+
+.TodoItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  margin-right: 950px;
+}
+
+.Todo {
+  width: 6;
+}
+
+.TodoItem button{
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn {
+  margin-left: auto;
+}
